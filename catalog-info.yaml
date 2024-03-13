@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-quarkus-repo
+  annotations:
+    backstage.io/kubernetes-id: my-quarkus-repo
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: org-rhdh/my-quarkus-repo
+spec:
+  type: api
+  system: linux
+  lifecycle: production
+  owner: jprejith
